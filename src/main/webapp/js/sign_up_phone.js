@@ -43,8 +43,10 @@ item_ip.onkeypress = () => {
 }
 
 btn_g.onclick = () => {
+	if(flag.value == 1){
 		submit_flag.value = 1;
 		onSubmit();
+	}
 }
 
 button_round.onclick = () => {
