@@ -4,7 +4,7 @@
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
 <header>
     <div class="nav">
-        <a href="" class="brand_logo"><h1>kakao</h1></a>
+        <a href="index" class="brand_logo"><h1>kakao</h1></a>
         <ul class="nav_item">
             <a href=""><li>카카오</li></a>
             <a href="notice"><li>뉴스</li></a>
@@ -22,7 +22,7 @@
         	</c:when>
         	<c:otherwise>
         		<ul class="nav_user">
-		            <a href="#"><li><i class="fas fa-user-circle"></i> ${login_user.id }<span>${emailAddress }</span></li></a>
+		            <a href="mypage"><li><i class="fas fa-user-circle"></i> ${login_user.id }<span>${emailAddress }</span></li></a>
 		            <a href="logout"><li><i class="fas fa-sign-out-alt"></i></li></a>
 		        </ul>
         	</c:otherwise>
